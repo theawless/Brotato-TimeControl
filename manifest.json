@@ -1,13 +1,12 @@
 {
     "name": "SkipWave",
     "namespace": "theawless",
-    "version_number": "1.0.0",
+    "version_number": "2.0.0",
     "description": "Skip waves when you want to get to the real fun",
     "website_url": "https://github.com/theawless/Brotato-WaveTimeControl",
     "dependencies": [],
     "extra": {
         "godot": {
-            "incompatibilities": [],
             "authors": [
                 "theawless"
             ],
@@ -16,8 +15,7 @@
             ],
             "compatible_game_version": [
                 "1.0.1.3"
-            ],
-            "config_defaults": {}
+            ]
         }
     }
 }
