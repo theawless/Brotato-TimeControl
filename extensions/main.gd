@@ -20,6 +20,6 @@ func _input(event: InputEvent) -> void:
 	if event.scancode == KEY_I:
 		Engine.time_scale = max(0, Engine.time_scale - 0.1)
 	if event.scancode == KEY_O:
-		Engine.time_scale = 1.0
+		Engine.time_scale = 1
 	if event.scancode == KEY_P:
 		Engine.time_scale = min(10, Engine.time_scale + 0.1)
