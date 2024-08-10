@@ -1,6 +1,6 @@
-# Brotato-SkipWave
+# Brotato-TimeControl
 
-Mod for Brotato to skip waves or speed up game time when you want to get to the real fun.
+Mod for Brotato to control time to get to the real fun.
 
 You can press these buttons during a wave run:
 
