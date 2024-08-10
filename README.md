@@ -1,6 +1,6 @@
 # Brotato-TimeControl
 
-Mod for Brotato to control time to get to the real fun.
+Control time to get to the real fun.
 
 You can press these buttons during a wave run:
 
