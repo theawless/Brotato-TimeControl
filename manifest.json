@@ -1,9 +1,9 @@
 {
-    "name": "SkipWave",
+    "name": "TimeControl",
     "namespace": "theawless",
-    "version_number": "2.0.0",
-    "description": "Skip waves when you want to get to the real fun",
-    "website_url": "https://github.com/theawless/Brotato-WaveTimeControl",
+    "version_number": "3.0.0",
+    "description": "Control time to get to the real fun",
+    "website_url": "https://github.com/theawless/Brotato-TimeControl",
     "dependencies": [],
     "extra": {
         "godot": {
