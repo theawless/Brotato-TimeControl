@@ -2,14 +2,24 @@
 
 Control time to get to the real fun.
 
-You can press these buttons during a wave run:
+You can press these buttons on keyboard during a wave run:
 
-J - decrease the wave time
-K - skip the level
-L - increase the wave time
+`-` : decrease the wave time  
+`-` and `+` together : skip the wave  
+`+` : increase the wave time  
 
-I - decrease game speed
-O - reset game speed
-P - increase game speed
+`[` : decrease game speed  
+`[` and `]` together : reset game speed  
+`]` : increase game speed  
+
+If you're using a controller you can press this buttons instead:
+
+left shoulder : decrease the wave time  
+left and right shoulder together : skip the wave  
+right shoulder : increase the wave time  
+
+left trigger : decrease game speed  
+left and right trigger together : reset game speed  
+right trigger : increase game speed  
 
 Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=3300156710
