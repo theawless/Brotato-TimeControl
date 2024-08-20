@@ -1,7 +1,7 @@
 {
     "name": "TimeControl",
     "namespace": "theawless",
-    "version_number": "3.0.0",
+    "version_number": "3.1.0",
     "description": "Control time to get to the real fun",
     "website_url": "https://github.com/theawless/Brotato-TimeControl",
     "dependencies": [],
