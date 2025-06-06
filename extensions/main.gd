@@ -12,8 +12,6 @@ var _key_pressed = {
 }
 
 func _input(event: InputEvent) -> void:
-	._input(event)
-
 	if event is InputEventKey and event.scancode in _key_pressed:
 		_key_pressed[event.scancode] = event.pressed
 	elif event is InputEventJoypadButton and event.button_index in _key_pressed:
@@ -33,14 +31,15 @@ func _input(event: InputEvent) -> void:
 	elif faster:
 		Engine.time_scale = min(10, Engine.time_scale + 0.1)
 
+	var zone_data = ZoneService.get_zone_data(RunData.current_zone).duplicate()
 	var wave_data = ZoneService.get_wave_data(RunData.current_zone, RunData.current_wave);
 
 	if decrease and increase:
 		_wave_timer.start(0.01)
-		_wave_manager.init(_wave_timer, wave_data)
+		_wave_manager.init(_wave_timer, zone_data, wave_data)
 	elif decrease:
 		_wave_timer.start(max(_wave_timer.time_left - 1, 0))
-		_wave_manager.init(_wave_timer, wave_data)
+		_wave_manager.init(_wave_timer, zone_data, wave_data)
 	elif increase:
 		_wave_timer.start(min(_wave_timer.time_left + 1, wave_data.wave_duration))
-		_wave_manager.init(_wave_timer, wave_data)
+		_wave_manager.init(_wave_timer, zone_data, wave_data)
