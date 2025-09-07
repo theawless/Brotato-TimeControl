@@ -31,8 +31,8 @@ func _input(event: InputEvent) -> void:
 	elif faster:
 		Engine.time_scale = min(10, Engine.time_scale + 0.1)
 
-	var zone_data = ZoneService.get_zone_data(RunData.current_zone).duplicate()
-	var wave_data = ZoneService.get_wave_data(RunData.current_zone, RunData.current_wave);
+	var zone_data = ZoneService.get_zone_data(RunData.current_zone)
+	var wave_data = ZoneService.get_wave_data(RunData.current_zone, RunData.current_wave)
 
 	if decrease and increase:
 		_wave_timer.start(0.01)

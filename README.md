@@ -12,7 +12,7 @@ You can press these buttons on keyboard during a wave run:
 `-` and `+` together : reset game speed  
 `+` : increase game speed  
 
-If you're using a controller you can press this buttons instead:
+If you're using a controller you can press these buttons instead:
 
 left trigger : decrease the wave time  
 left and right trigger together : skip the wave  
